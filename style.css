@@ -1,0 +1,86 @@
+html{
+  scroll-behavior:smooth;
+}
+body{
+  padding:0px;
+  margin:0px;
+}
+@font-face{
+  src: url(gotham.otf);
+  font-family: Gotham;
+}
+h1 {
+	font-family: Gotham;
+}
+h2 {
+	font-family: Gotham;
+}
+h3 {
+	font-family: Gotham;
+}
+h4 {
+	font-family: Gotham;
+}
+h5 {
+	font-family: Gotham;
+}
+h6 {
+	font-family: Gotham;
+}
+p {
+	font-family: Gotham;
+}
+pre {
+	font-family: Gotham;
+}
+a {
+	font-family: Gotham;
+  text-decoration:none;
+  transition:1s;
+}
+a:hover{
+  font-family: Gotham;
+  border-bottom: solid 2px white;
+  transition: 1s;
+}
+div {
+	font-family: Gotham;
+}
+bigpage{
+  display:block;
+  width:100%;
+  height:100vh;
+  padding:0px;
+  margin:0px;
+  background-image: url(https://i.redd.it/lniqe8mw7fl11.png);
+  background-size:cover;
+}
+lefthalf{
+  display:block;
+  padding:0px;
+  margin:0px;
+  position:absolute;
+  height:100%;
+  width:50%;
+  top:0%;
+  left:0%;
+}
+righthalf{
+  display:block;
+  padding:0px;
+  margin:0px;
+  position:absolute;
+  height:100%;
+  width:50%;
+  top:0%;
+  left:50%;
+  background-color: aquamarine;
+}
+header{
+  position: fixed;
+  width:100%;
+  height:10vh;
+  background-color: rgba(0,0,0,0.5);
+  backdrop-filter: blur(3px);
+  z-index: 999999;
+}
